@@ -3,6 +3,7 @@
 # Create a project 
 ```
 composer create-project laravel/laravel nameproject
+composer create-project laravel/laravel nameproject "6.*"
 cd nameproject
 php artisan serve
 ```
