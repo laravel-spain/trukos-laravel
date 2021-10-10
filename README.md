@@ -24,5 +24,5 @@ create database demo
 
 # Create a Model
 ```
-php artisan make:model students--all
+php artisan make:model students -a
 ```
