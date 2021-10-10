@@ -26,3 +26,13 @@ create database demo
 ```
 php artisan make:model students -a
 ```
+
+/Users/marlonfalcon/Documents/php/bloglaravel/database/migrations/2021_10_10_200942_create_students_table.php
+```
+Schema::create('students', function (Blueprint $table) {
+            $table->id();
+            $table->string(column: 'name')->nullable();
+            $table->boolean(column: 'active')->nullable();
+            $table->timestamps();
+        });
+```
