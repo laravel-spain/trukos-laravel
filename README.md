@@ -21,3 +21,8 @@ mysql_secure_installation
 mysql -u root -p
 create database demo
 ```
+
+# Create a Model
+```
+php artisan make:model students--all
+```
